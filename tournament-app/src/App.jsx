@@ -70,7 +70,7 @@ function App() {
           value={numPools}
           onChange={e => {
             const val = e.target.value
-            if (/^\d*$/.test(val)) { 
+            if (/^\d*$/.test(val)) {
               setNumPools(Number(val || 0))
             }
           }}
@@ -146,7 +146,9 @@ function App() {
                     style={{
                       display: 'flex',
                       justifyContent: 'space-between',
-                      width: '300px',
+                      width: '100%',
+                      maxWidth: '300px',
+                      boxSizing: 'border-box',
                       padding: '10px 20px',
                       backgroundColor: '#2a2a2a',
                       borderRadius: 8,

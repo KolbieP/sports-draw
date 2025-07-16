@@ -21,3 +21,7 @@ li {
   margin-bottom: 0.3em;
   border-radius: 6px;
 }
+
+input {
+  font-size: 16px;
+}
