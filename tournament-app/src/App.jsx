@@ -64,12 +64,18 @@ function App() {
       <label>
         Number of Pools:
         <input
-          type="number"
-          min="1"
-          max={teams.filter(t => t.trim() !== '').length || 1}
+          type="text"
+          inputMode="numeric"
+          pattern="[0-9]*"
           value={numPools}
-          onChange={e => setNumPools(Number(e.target.value))}
-          style={{ marginLeft: 10, width: 50 }}
+          onChange={e => {
+            const val = e.target.value
+            if (/^\d*$/.test(val)) { 
+              setNumPools(Number(val || 0))
+            }
+          }}
+          style={{ marginLeft: 10, width: 60, textAlign: 'center' }}
+          placeholder="2"
         />
       </label>
 

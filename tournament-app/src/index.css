@@ -66,23 +66,3 @@ input:focus {
   outline: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-    color: #213547;
-  }
-
-  button:hover {
-    border-color: #3f87f5;
-  }
-
-  input {
-    background-color: #fff;
-    color: #213547;
-  }
-}
