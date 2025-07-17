@@ -1,6 +1,6 @@
 <h1>🏆 Tournament Draw</h1>
 <p><strong>React Web Application</strong><br />
-<a href="https://kolbieparker.ca/tournament/" target="_blank">🌐 View the Live Project</a></p>
+<a href="https://kolbieparker.ca/tournament-app/index.html" target="_blank">🌐 View the Live Project</a></p>
 
 <hr />
 
